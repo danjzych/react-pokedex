@@ -1,7 +1,7 @@
 import './App.css';
 import Pokedex from './Pokedex';
 
-const pokeData = [
+const POKE_DATA = [
   { id: 4, name: 'Charmander', type: 'fire', base_experience: 62 },
   { id: 7, name: 'Squirtle', type: 'water', base_experience: 63 },
   { id: 11, name: 'Metapod', type: 'bug', base_experience: 72 },
@@ -14,7 +14,7 @@ const pokeData = [
 
 function App() {
   return (
-    <Pokedex pokeData={pokeData} />
+    <Pokedex pokeData={POKE_DATA} />
   );
 }
 
